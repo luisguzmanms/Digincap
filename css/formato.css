@@ -1,0 +1,358 @@
+body{
+	width:100%;
+	height:100%;
+
+background: rgba(12,58,100,1);
+background: -moz-linear-gradient(left, rgba(12,58,100,1) 0%, rgba(2,5,9,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(12,58,100,1)), color-stop(100%, rgba(2,5,9,1)));
+background: -webkit-linear-gradient(left, rgba(12,58,100,1) 0%, rgba(2,5,9,1) 100%);
+background: -o-linear-gradient(left, rgba(12,58,100,1) 0%, rgba(2,5,9,1) 100%);
+background: -ms-linear-gradient(left, rgba(12,58,100,1) 0%, rgba(2,5,9,1) 100%);
+background: linear-gradient(to right, rgba(12,58,100,1) 0%, rgba(2,5,9,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c3a64', endColorstr='#020509', GradientType=1 );
+
+	}
+#contenedor{
+	margin:auto;
+	margin-top:20px;
+	width:80%;
+	height:auto;
+	/*background:#487684;*/
+}
+#contenedor #encab{
+	width:100%;
+	height:100px;
+	background:#060646;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:32px;
+	color:#fff;
+	text-align:center;
+	
+
+background: rgba(133,99,49,1);
+background: -moz-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(133,99,49,1)), color-stop(8%, rgba(124,92,44,1)), color-stop(44%, rgba(84,58,19,1)), color-stop(66%, rgba(84,58,19,1)), color-stop(88%, rgba(158,135,98,1)), color-stop(91%, rgba(168,145,109,1)));
+background: -webkit-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: -o-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: -ms-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: linear-gradient(to right, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#856331', endColorstr='#a8916d', GradientType=1 );
+
+
+	/*padding-top:35px;*/
+}
+#contenedor #mitad{
+	width:100%;
+	min-height:470px;
+	height:auto;
+	overflow:auto;
+	background:#fff;
+}
+#contenedor #pie{
+	width:100%;
+	height:100px;
+	
+background: rgba(133,99,49,1);
+background: -moz-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(133,99,49,1)), color-stop(8%, rgba(124,92,44,1)), color-stop(44%, rgba(84,58,19,1)), color-stop(66%, rgba(84,58,19,1)), color-stop(88%, rgba(158,135,98,1)), color-stop(91%, rgba(168,145,109,1)));
+background: -webkit-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: -o-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: -ms-linear-gradient(left, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+background: linear-gradient(to right, rgba(133,99,49,1) 0%, rgba(124,92,44,1) 8%, rgba(84,58,19,1) 44%, rgba(84,58,19,1) 66%, rgba(158,135,98,1) 88%, rgba(168,145,109,1) 91%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#856331', endColorstr='#a8916d', GradientType=1 );
+
+}
+#contenedor #mitad .dv{
+	position:relative;
+	width:100%;
+	padding-top:10px;
+	height:120px;
+	/*background:#000;*/
+}
+#contenedor #mitad .dv .col2{
+	margin-left:2%;
+	width:46%;
+	height:80px;
+	font-family:Arial;
+	font-size:45px;
+	font-weight:bold;
+	color:#D19000;
+	padding-top:20px;
+	text-align:center;
+	float:left;
+	background: rgba(6,45,82,0.82);
+background: -moz-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+background: -webkit-gradient(left top, right top, color-stop(8%, rgba(6,45,82,0.82)), color-stop(22%, rgba(6,45,82,0.84)), color-stop(77%, rgba(3,36,69,0.9)), color-stop(86%, rgba(3,36,69,0.91)));
+background: -webkit-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+background: -o-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+background: -ms-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+background: linear-gradient(to right, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#062d52', endColorstr='#032445', GradientType=1 );
+/*	border-radius: 106px 200px 41px 200px;
+	-moz-border-radius: 106px 200px 41px 200px;
+	-webkit-border-radius: 106px 200px 41px 200px;*/
+	border: 0px solid #000000;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#contenedor #mitad .dv .col2:hover{
+	margin-left:2%;
+	
+	width:45%;
+	height:76px;
+	font-size:40px;
+	font-weight:bold;
+	color:#060646;
+	padding-top:20px;
+	text-align:center;
+	float:left;
+	background:#fff;/*060646;*/
+	border-radius: 106px 200px 41px 200px;
+	-moz-border-radius: 106px 200px 41px 200px;
+	-webkit-border-radius: 106px 200px 41px 200px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/* CSS para crear la calculadora */
+#contenedor #mitad .calculadora{
+	margin:auto;
+	margin-top:20px;
+	width:auto;
+	height:680px;
+	/*background:#484848;*/
+}
+#contenedor #mitad .dhor{
+	margin:auto;
+	width:90%;
+	height:60px;
+	padding:0px;
+	background:#fff;
+}
+#contenedor #mitad .col1{
+	width:99%;
+	height:auto;
+	text-align:center;
+	
+}
+#contenedor #mitad .col2{
+	width:50%;
+	height:auto;
+	float:left;
+}
+#contenedor #mitad .col3{
+	width:33%;
+	height:auto;
+	float:left;
+	text-align:center;
+	font-family:arial;
+	color:#458691;
+	background:#ccc;
+	font-size:38px;
+	font-weight:bold;
+}
+#contenedor #mitad .botones{
+	width:100%;
+	height:100%;
+	text-align:center;
+	padding-top:15px;
+	font-family:arial;
+	color:#458691;
+	background:#ccc;
+	font-size:38px;
+	font-weight:bold;
+
+}
+/* CSS para crear el visor..*/
+.vcontenedor{
+	margin:auto;
+	width:99%;
+	height:99%;
+	background:#fff;
+	
+}
+.vizq{
+	width:30%;
+	height:100%;
+	background:#fff;
+	float:left;
+}
+.vder{
+	margin:auto;
+	width:70%;
+	height:100%;
+	background:#fff;
+	float:right;
+}
+.venmarcar{
+	margin:auto;
+	width:97%;
+	height:95%;
+	/*background:#000000;*/
+	-webkit-box-shadow: -1px 11px 29px -9px rgba(0,0,0,0.72);
+	-moz-box-shadow: -1px 11px 29px -9px rgba(0,0,0,0.72);
+	box-shadow: -1px 11px 29px -9px rgba(0,0,0,0.72);
+} 
+.grupoi{
+	width:100%;
+	top:10px;
+	height:98px;
+	/*background:Red;*/
+}
+.grupoi .cmt{
+	margin:auto;
+	margin-left:10px;
+	width:60%;
+	min-height:50px;
+	height:70px;
+	font-family:Arial;
+	font-weight:Bold;
+	font-size:60px;
+	float:left;
+	color:#ffffff;
+	background:#fff;
+	/*background-image:url('../img/fontabvisor.png');*/
+	text-align:center;
+	padding-top:10px;
+	background-repeat: no-repeat;
+	/* Fondo*/
+	
+	background: rgba(6,45,82,0.82);
+	background: -moz-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -webkit-gradient(left top, right top, color-stop(8%, rgba(6,45,82,0.82)), color-stop(22%, rgba(6,45,82,0.84)), color-stop(77%, rgba(3,36,69,0.9)), color-stop(86%, rgba(3,36,69,0.91)));
+	background: -webkit-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -o-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -ms-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: linear-gradient(to right, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#062d52', endColorstr='#032445', GradientType=1 );
+	/*Bordes*/
+
+/*	border-radius: 106px 200px 41px 200px;
+	-moz-border-radius: 106px 200px 41px 200px;
+	-webkit-border-radius: 106px 200px 41px 200px;
+		/*Sombra*/
+	-webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.grupoi .cmt2{
+	margin-left:15px;
+	width:30%;
+	min-height:50px;
+	height:70px;
+	font-family:Arial;
+	font-weight:Bold;
+	font-size:55px;
+	color:#ffffff;
+	background:#fff;
+	/*background-image:url('../img/fontabvisor.png');*/
+	text-align:center;
+	padding-top:10px;
+	background-repeat: no-repeat;
+	/* Fondo*/
+	float:left;
+	background: rgba(6,45,82,0.82);
+	background: -moz-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -webkit-gradient(left top, right top, color-stop(8%, rgba(6,45,82,0.82)), color-stop(22%, rgba(6,45,82,0.84)), color-stop(77%, rgba(3,36,69,0.9)), color-stop(86%, rgba(3,36,69,0.91)));
+	background: -webkit-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -o-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -ms-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: linear-gradient(to right, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#062d52', endColorstr='#032445', GradientType=1 );
+
+		/*Bordes*/
+
+	/*	border-radius: 106px 200px 41px 200px;
+		-moz-border-radius: 106px 200px 41px 200px;
+		-webkit-border-radius: 106px 200px 41px 200px;
+			/*Sombra*/
+	-webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	}
+.vtitulo{
+	margin:auto;
+	width:94%;
+	height:40px;
+	background: rgba(6,0,82,0.50);
+	background: -moz-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -webkit-gradient(left top, right top, color-stop(8%, rgba(6,45,82,0.82)), color-stop(22%, rgba(6,45,82,0.84)), color-stop(77%, rgba(3,36,69,0.9)), color-stop(86%, rgba(3,36,69,0.91)));
+	background: -webkit-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -o-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: -ms-linear-gradient(left, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	background: linear-gradient(to right, rgba(6,45,82,0.82) 8%, rgba(6,45,82,0.84) 22%, rgba(3,36,69,0.9) 77%, rgba(3,36,69,0.91) 86%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#062d52', endColorstr='#032445', GradientType=1 );
+	font-family:Arial;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+		-webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+}	
+h2{
+	font-family:Arial;
+	font-size:30px;
+	color:#686868;
+} img{
+	margin:auto;
+	width:100%;
+	height:100%;
+
+}
+/* Css para Login*/
+#contenedor #mitad form .grupol{
+	margin:auto;
+	width:60%;
+	height:70%;
+	background:Red;
+	padding:20px;
+}
+#contenedor #mitad form .grupol .filal{
+	width:95%;
+	height:60px;
+	background:Blue;
+	padding:15px;
+}
+#contenedor #mitad form .grupol .filal .d30{
+	width:30%;
+	height:40px;
+	float:left;
+}
+#contenedor #mitad form .grupol .filal .d70{
+	width:70%;
+	height:40px;
+	float:left;
+}
+#contenedor #mitad form .grupol .filal .d50{
+	width:50%;
+	height:40px;
+	float:left;
+}
+#contenedor #mitad form .grupol .filal .campol{
+	width:100%;
+	height:40px;
+	text-align:center;
+}
+/*Formato para listado de funcionario*/
+.fil_fun{
+	margin:auto;
+	width:90%;
+	height:40px;
+} .d5{
+	width:15%;
+	height:35px;
+	float:left;
+	font-family:Arial;
+	font-size:20px;
+	text-align:center;
+	background:#cc44cc;
+	color:#fff;
+}, .d2{
+	width:40%;
+	background:#cc44cc;
+	color:#fff;
+}
